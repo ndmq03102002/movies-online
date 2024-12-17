@@ -1,0 +1,123 @@
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+    text-align: left;
+    width: 100%;
+}
+
+
+.mb20{
+    margin-bottom: 20px;
+}
+.mt20{
+    margin-top: 20px;
+}
+
+h5
+{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+table .image{
+    height: 73px;
+    display: block;
+}
+
+.img-cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+table strong{
+    min-width: 88px;
+    display: inline-block;
+}
+
+.table >thead >tr > th,
+.table >tbody >tr > th,
+.table >tfoot >tr > th,
+.table >thead >tr > td,
+.table >tbody >tr > td,
+.table >tfoot >tr > td{
+    vertical-align: middle;
+}
+
+.uk-flex-space-between{
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.uk-flex-middle{
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.uk-flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.btn{
+    margin-bottom: 0;
+    font-size: 13px;
+    height: 32px;
+    border-radius: 0;
+}
+.filter-wapper{
+    margin-bottom: 20px;
+}
+.filter-wapper .perpage{
+    display: inline-block;
+}
+.filter-wapper .form-control{
+    height: 32px;
+    max-width: 200px;
+    font-size: 13px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.mr5{
+    margin-right: 5px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.box .ibox {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1)
+}
+
+.control-label {
+    display: block;
+}
+
+.panel-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.panel-description {
+    font-size: 15px;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 0 !important;
+}
